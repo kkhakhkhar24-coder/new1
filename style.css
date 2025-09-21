@@ -1,0 +1,436 @@
+.first{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 1px;
+    /* box-shadow: 1px 1px 5px gray; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+} 
+
+.navbar .container-fluid{
+    width: 96%;
+}
+
+.navbar img{
+    width: 200px;
+}
+
+.navbar input{
+    width: 420px;
+}
+
+.navbar ul li a{
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.submenu{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.submenu ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.submenu ul li a:hover{
+    color: black;
+}
+
+.content_1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.content_1 .card{
+    width: 93%;
+    padding: 20px;
+    background-color: rgb(242, 242, 242);
+    border: none;
+}
+
+.content_1 .card img{
+    height: 100%;
+    object-fit: cover;
+}
+
+p{
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.card_1{
+    width: 92%;
+}
+
+.second .card{
+    width: 24%;
+    border: none;
+    padding: 0%;
+}
+
+.second img{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.second .card:hover img{
+    opacity: 1;
+}
+
+.card a h5{
+    margin-top: 220px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.s_1 .card a h5{
+    margin-top: 200px;
+    font-size: 25px;
+}
+
+.third .card{
+    width: 32.5%;
+    border: none;
+    padding: 0%;
+}
+
+.third img{
+    width: 100%;
+    height: 250px;
+    opacity: 0.8;
+}
+
+.third .card:hover img{
+    opacity: 1;
+}
+
+.third h5 a{
+    text-decoration: none;
+    color: black;
+}
+
+.third h5 a:hover{
+    text-decoration: underline 1px solid gray;
+    color: gray;
+}
+
+.bg_1 img{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 94%;
+}
+
+.bg_2 img{
+    width: 100%;
+}
+
+.fourth{
+    width: 93%;
+}
+
+.fourth .ul_1 li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.fourth .ul_1 li a:hover{
+    color: gray;
+    text-decoration: underline 1px solid gray;
+}
+
+.fourth .list{
+    gap: 90px;
+}
+
+footer{
+    background-color: rgb(226, 226, 226);
+    padding: 20px;
+}
+
+.footer{
+    gap: 60px;
+}
+
+.footer h5{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-left: -30px;
+    line-height: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer li a:hover{
+    color: gray;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+footer p a:hover{
+    color: rgb(79, 79, 79);
+}
+
+
+
+
+@media (max-width: 1025px){
+    .navbar input{
+        width: 200px;
+    }
+
+    .card a h5{
+        margin-top: 175px;
+    }
+
+    .s_1 .card a h5{
+        margin-top: 145px;
+        /* font-size: 16px; */
+    }
+    
+}
+
+
+
+
+@media (max-width: 769px){
+    .navbar img{
+        width: 250px;
+    }
+
+    .navbar .form{
+        margin-top: 10px;
+    }
+
+    .navbar input{
+        width: 644px;
+    }
+
+    .navbar ul{
+        margin-top: 10px;
+    }
+
+    .second .card{
+        width: 23%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .third .card{
+        width: 32%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card a h5{
+        margin-top: 120px;
+        font-size: 18px;
+    }
+
+    .s_1 .card a h5{
+        margin-top: 100px;
+        font-size: 18px;
+    }
+    
+    .fourth .list{
+        gap: 40px;
+    }
+    
+    .fourth .ul_1 li a{
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media (max-width: 426px){
+    .navbar img{
+        width: 150px;
+    }
+
+    .navbar .container-fluid{
+        width: 99%;
+    }
+
+    .navbar .form{
+        margin-top: 20px;
+    }
+
+    .navbar input{
+        width: 300px;
+    }
+
+
+    .navbar ul li a{
+        font-size: 9px;
+        line-height: 1px;
+    }
+
+    .submenu{
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+
+    .submenu ul li a{
+        font-size: 8.9px;
+        font-weight: 600;
+        color: black;
+    }
+
+    .content_1 .card{
+        width: 90%;
+        padding: 10px;
+    }
+
+    .content_1 .card .card-body{
+        padding: 2%;
+    }
+    
+    .card_1 h4{
+        position: relative;
+        top: 10px;
+        font-size: 6px;
+        font-weight: bolder;
+    }
+
+    .second{
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .second .card{
+        width: 48%;
+    }
+
+    .third{
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .third .card{
+        width: 100%;
+    }
+
+    .card a h5{
+        margin-top: 130px;
+        font-size: 18px;
+    }
+
+    .s_1 .card a h5{
+        margin-top: 110px;
+        font-size: 18px;
+    }
+
+    .fourth .list{
+        gap: 0px;
+    }
+    
+    .fourth .ul_1 li a{
+        font-size: 13px;
+    }
+
+    .footer{
+        gap: 20px;
+    }
+
+    .footer .h5{
+        font-size: 10px;
+    }
+    
+    .footer li a{
+        font-size: 8.6px;
+        line-height: 1;
+    }
+
+    footer p{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 376px){
+    .navbar input{
+        width: 250px;
+    }
+
+    .card a h5{
+        margin-top: 110px;
+        font-size: 18px;
+    }
+
+    .s_1 .card a h5{
+        margin-top: 95px;
+        font-size: 18px;
+    }
+
+    .fourth .list{
+        gap: 0px;
+    }
+    
+    .fourth .ul_1 li a{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 321px){
+    .navbar input{
+        width: 190px;
+    }
+
+    .card a h5{
+        margin-top: 95px;
+        font-size: 16px;
+    }
+
+    .s_1 .card a h5{
+        margin-top: 75px;
+        font-size: 16px;
+    }
+
+    .fourth .list{
+        gap: 0px;
+    }
+    
+    .fourth .ul_1 li a{
+        font-size: 8.5px;
+        line-height: 0.1;
+    }
+}
